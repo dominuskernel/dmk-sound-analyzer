@@ -1,2 +1,2 @@
-# components-generator
-It's a components generator
+# dmk-sound-analyzer
+It's a sound graphic analyzer

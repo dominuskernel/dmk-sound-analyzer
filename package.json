@@ -1,6 +1,6 @@
 {
-  "name": "components-generator",
-  "version": "0.0.0",
+  "name": "dmk-sound-analyzer",
+  "version": "1.0.0",
   "dependencies": {
     "browser-sync": "1.7.2",
     "gulp-concat": "~2.4.2",

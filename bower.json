@@ -1,7 +1,9 @@
 {
-  "name": "components-generator",
-  "version": "0.0.0",
+  "name": "dmk-sound-analyzer",
+  "version": "1.0.0",
   "dependencies": {
+    "angular": "1.4",
+    "babylonjs": "^v2"
   },
   "devDependencies": {}
 }

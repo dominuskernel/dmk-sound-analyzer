@@ -1,6 +1,21 @@
 doctype html
-html
+html(ng-app="app")
     include ./includes/head
-    body
-        h1 Ready
+    body(ng-controller="LoadSoundAnalizer")
+        h1 dmk-sound-analyzer
+        div(ng-if="isLoaded")
+            .content-Canvas(dmk-sound-analyzer
+                dmk-name="music.name"
+                dmk-url="music.url"
+                dmk-start="start"
+                dmk-vol="volume")
+
+        pre.
+            div(ng-if="isLoaded")
+                .content-Canvas(dmk-sound-analyzer
+                    dmk-name="music.name"
+                    dmk-url="music.url"
+                    dmk-start="start"
+                    dmk-vol="volume")
+
         include ./includes/scripts
